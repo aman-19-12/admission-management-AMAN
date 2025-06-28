@@ -1,31 +1,42 @@
 # admission-management-AMAN
 ## 📌 Project Overview
-This is a simple Admission Management System developed as part of an academic project. It helps manage student admission details efficiently.
+This is a C language-based **Admission Management System** that performs basic operations like adding, viewing, updating, and deleting student records. The project uses **file handling** in C to store data persistently in a text file.
 
 ## 🎯 Features
-- Add new student records
+- Add new student admission records
 - View all student details
-- Search for a student by name or ID
-- Update and delete student information
-- User-friendly interface
+- Search for student by name or roll number
+- Update student information
+- Delete records from the file
+- Uses `.txt` file for storing data
 
 ## 🛠️ Technologies Used
-- Frontend: HTML, CSS
-- Backend: Python / PHP / Java (mention based on your project)
-- Database: MySQL / SQLite (mention accordingly)
+- Language: C
+- File Handling Functions: `fopen`, `fprintf`, `fscanf`, `fread`, `fwrite`, `fclose`
+- Platform: Windows
+- Executable File: `admission.exe`
 
-## 📁 How to Run
-1. Download or clone the repository.
-2. Set up the database using the provided script (if any).
-3. Run the application using your preferred IDE or local server.
-4. Access it via `localhost`.
+## ▶️ How to Run the Project
+1. Download and extract the ZIP file.
+2. Locate the file `admission.exe`.
+3. Double-click `admission.exe` to launch the application.
+4. Use the menu to perform operations like Add, View, Update, or Delete records.
+5. Make sure the `.txt` file (`student.txt`) is in the same directory.
 
-## 📸 Screenshots
-*(Add screenshots of your project UI here if available)*
+> ℹ️ If double-clicking doesn't work, try:
+> - Right-click → Run as administrator
+> - Or run via command prompt:
+> ```bash
+> cd path\to\project-folder
+> admission.exe
+> ```
+
+## 📁 File Structure
+
+## 👨‍🎓 Author
+Aman – B.Tech Student  
+Academic project on file handling in C language.
 
 ## 📃 License
-This project is for academic purposes only.
+This project is for academic and educational use only.
 
----
-
-Feel free to modify this based on the actual technologies and features in your ZIP file (`college.zip`). If you want, I can check the contents of the ZIP file and write a more accurate `README.md` for you. Just say "yes."
